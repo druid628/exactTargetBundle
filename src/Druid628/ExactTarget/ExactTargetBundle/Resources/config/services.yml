@@ -1,0 +1,7 @@
+parameters :
+  exacttarget.client.class : 'druid628\exactTarget\EtClient'
+
+services :
+  exacttarget : 
+    class : '%exacttarget.client.class%'
+    arguments : [ '%exacttarget.username%', '%exacttarget.password%', '%exacttarget.server%' ]
