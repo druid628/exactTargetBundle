@@ -1,0 +1,29 @@
+{
+    "name": "druid628/exacttarget-bundle",
+    "type": "library",
+    "keywords" : ["exact target", "exacttarget", "email", "api" ],
+    "description": "Component library for ExactTarget API",
+    "license": "MIT",
+    "homepage": "https://github.com/druid628/exactTargetBundle",
+    "authors": [
+        {
+            "name": "Micah Breedlove",
+            "email": "druid628@gmail.com",
+            "homepage": "http://micah.breedlove.in/"
+        }
+    ],
+    "require": {
+        "php"                   : ">=5.3.5",
+        'druid628/exacttarget"  : ">=1.0.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": { 
+            "druid628\\exactTarget\\etBundle": "src/" 
+        }
+    }
+}
