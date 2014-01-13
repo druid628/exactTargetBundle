@@ -14,7 +14,7 @@
     ],
     "require": {
         "php"                   : ">=5.3.5",
-        'druid628/exacttarget"  : ">=1.0.4"
+        'druid628/exacttarget"  : ">=1.0.5"
     },
     "extra": {
         "branch-alias": {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-0": { 
-            "druid628\\exactTarget\\etBundle": "src/" 
+            "druid628\\ExactTarget\\ExactTargetBundle": "src/" 
         }
     }
 }
