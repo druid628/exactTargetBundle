@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-0": { 
-            "druid628\\ExactTarget\\ExactTargetBundle": "src/" 
+            "Druid628\\ExactTarget\\ExactTargetBundle": "src/"
         }
     }
 }
